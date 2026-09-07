@@ -9,9 +9,9 @@ Unity · C# · PC, 3rd-person free-look.
 
 This is a **code-only extract** of the C# scripts I authored or worked on, pulled from the full team Unity project by cross-referencing git commit history.
 
-The full project (including third-party Unity Asset Store packages — terrain, foliage, food props, skybox, etc.) lives in a private repository. This repo excludes those assets, and excludes scripts that were fully owned by teammates (e.g. the rhythm-game puzzle minigame, storage/NPC-inventory system).
+The full project (including third-party Unity Asset Store packages — terrain, foliage, food props, skybox, etc.) lives in a private repository. This repo excludes those assets, and excludes scripts that were fully owned by teammates (e.g. the rhythm-game/puzzle minigames, NPC behavior and food-storage tracking). The player's item/inventory system below is mine.
 
-- `Scripts/` — gameplay scripts across the game's systems: day/night cycle, environmental puzzles (fire/rock/safe), item & inventory, NPC routines, player controller, UI
+- `Scripts/` — gameplay scripts across the game's systems: day/night cycle & lighting, environmental hazards & interactables (falling rocks, wind gusts, crafting table, fish trap), item & inventory, player controller, UI
 - `Scripts/_Prototype/` — an early item-system prototype I built solo before the team's final item system was implemented
 
 ## Team & my role
